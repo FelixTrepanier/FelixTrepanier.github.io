@@ -1,0 +1,16 @@
+I"Õ<h2 id="intro">Intro</h2>
+<p>The goal of this project is to get matchup data from your Yahoo Fantasy league. I have a fatasy hockey league with my best friends that has been running for over 10 years and we all wanted to see the historical stats. To get the data, we will first be using the Yahoo Fantasy API, then transform it from XML data to tabular data using Python.</p>
+
+<h2 id="creating-your-yahoo-app-and-getting-your-key">Creating your Yahoo app and getting your key</h2>
+<p>The first step to use the API is to create your own <a href="https://developer.yahoo.com/apps/">Yahoo app</a>. When you create your app, make sure that you select Fantasy Sports and Read under the API permissions.</p>
+
+<p>The next step is to open your newly created app and to copy your consumer key and consumer secret to a json file that should look like this.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "consumer_key": "[your consumer key]",
+    "consumer_secret": "[your consumer secret]",
+}
+</code></pre></div></div>
+
+<h2 id="connect-to-the-api-in-python">Connect to the API in Python</h2>
+<p>After saving your credentials, we are now ready to start using the API in Python.</p>
+:ET
