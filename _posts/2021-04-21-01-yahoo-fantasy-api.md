@@ -21,4 +21,4 @@ The next step is to open your newly created app and to copy your consumer key an
 ```
 
 ## Connect to the API in Python
-After saving 
+After saving your credentials, we are now ready to start using the API in Python.
